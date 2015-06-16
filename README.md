@@ -10,12 +10,12 @@ June 2015
 
 All schematics soon on https://hamprojects.wordpress.com/ 
 
-Use this library freely with Arduino 1.0.6
+Use this program freely with Arduino 1.0.6
 
 ## Installation ##
 To use the VnArduino program:  
 - Go to https://github.com/f4goh/VnArduino, click the [Download ZIP](https://github.com/f4goh/VnArduino/archive/master.zip) button and save the ZIP file to a convenient location on your PC.
-- Uncompress the downloaded file.  This will result in a folder containing all the files for the program, that has a name that includes the branch name, usually VnArduino-master.
+- Uncompress the downloaded file.  This will result in a folder containing the program, that has a name that includes the branch name, usually VnArduino-master.
 - Rename the folder to  VnArduino.
 - Copy the renamed folder to the Arduino sketchbook\.
 
