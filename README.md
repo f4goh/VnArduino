@@ -3,6 +3,13 @@ F4GOH Anthony f4goh@orange.fr <br>
 
 June 2015
 
+  Hardware :
+- Arduino or Nano
+- AD9851
+- AD8302
+
+All schematics soon on https://hamprojects.wordpress.com/ 
+
 Use this library freely with Arduino 1.0.6
 
 ## Installation ##
@@ -12,8 +19,8 @@ To use the VnArduino program:
 - Rename the folder to  VnArduino.
 - Copy the renamed folder to the Arduino sketchbook\.
 
-- you must add Arduino TimerOne library : <br>
-  Go to http://playground.arduino.cc/Code/Timer1
+- you must add Arduino SPI library for AD9850 : F4GOJ Christophe f4goj@free.fr <br>
+  Go to https://github.com/F4GOJ/AD9850SPI
 
 ## Usage notes ##
 
