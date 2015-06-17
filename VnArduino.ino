@@ -195,9 +195,8 @@ calPhs=((float)adcphs*Adc2Angle);
 //Serial.println(calMag);              //verif calibration
 //Serial.println(calPhs);
 
-attachInterrupt(0, doEncoder, CHANGE);  // encoder pin on interrupt 0 - pin 2
 
-boot_menu();
+
 
   lcd.clear();
   lcd.print(F("     VNA v1.0"));    //intro
@@ -205,7 +204,9 @@ boot_menu();
   lcd.print(F("    F4GOH 2015"));
   delay(4000);
   lcd.clear();
-  
+
+attachInterrupt(0, doEncoder, CHANGE);  // encoder pin on interrupt 0 - pin 2
+boot_menu();
 
 
 menuChoose=EEPROM.read(0);
@@ -734,26 +735,7 @@ void bandSelect()
 
 void vna_print_unites()
 {
-Serial.print(F("Freq"));
-Serial.write(9);
-Serial.print(F("Adcmag"));
-Serial.write(9);
-Serial.print(F("Adcphs"));
-Serial.write(9);
-Serial.print(F("RL"));
-Serial.write(9);
-Serial.print(F("Phi"));
-Serial.write(9);
-Serial.print(F("Mag"));
-Serial.write(9);
-Serial.print(F("RS"));
-Serial.write(9);
-Serial.print(F("Xs"));
-Serial.write(9);
-Serial.print(F("Z"));
-Serial.write(9);
-Serial.println(F("SWR"));
-  
+  Serial.println(F("Freq\tAdcmag\tAdcphs\tRL\tPhiMag\tRS\tXs\tZ\tSWR"));
 }
 /********************************************************
  * Calibration
@@ -789,7 +771,6 @@ while(digitalRead(dpInEncoderPress)==0) {}  //BP rise down detect
 while(digitalRead(dpInEncoderPress)==1) {} 
 delay(2000);
 }
-
 
 
 
