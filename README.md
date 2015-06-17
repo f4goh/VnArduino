@@ -7,6 +7,9 @@ June 2015
 - Arduino or Nano
 - AD9851
 - AD8302
+- Optional SD card
+
+LOW level on D4 pin during reset to enter menu
 
 All schematics soon on https://hamprojects.wordpress.com/ 
 
