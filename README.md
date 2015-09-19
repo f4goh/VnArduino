@@ -25,6 +25,10 @@ To use the VnArduino program:
 - you must add Arduino SPI library for AD9850 : F4GOJ Christophe f4goj@free.fr <br>
   Go to https://github.com/F4GOJ/AD9850SPI
 
+- if you use microSD, add Arduino SDfat library<br>
+
+https://github.com/greiman/SdFat/tree/master/SdFat
+
 ## Usage notes ##
 
 
