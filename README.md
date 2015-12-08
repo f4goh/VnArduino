@@ -29,6 +29,10 @@ To use the VnArduino program:
 
 https://github.com/greiman/SdFat/tree/master/SdFat
 
+- to download hex files directly without compilation take a look at<br>
+
+https://github.com/f4goh/VnArduino/blob/master/upload%20sans%20compil.zip
+
 ## Usage notes ##
 
 
