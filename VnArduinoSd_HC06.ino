@@ -225,7 +225,7 @@ calPhs=((float)adcphs*Adc2Angle);
   delay(4000);
   lcd.clear();
 
-attachInterrupt(0, doEncoder, CHANGE);  // encoder pin on interrupt 0 - pin 2
+attachInterrupt(0, doEncoder, RISING);  // encoder pin on interrupt 0 - pin 2
 boot_menu();
 
 
